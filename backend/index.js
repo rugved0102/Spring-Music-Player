@@ -60,6 +60,9 @@ app.get("/search", async (req, res) => {
     }
 });
 
+//Define port number
+const port = 3030;
+
 app.listen(PORT, () => {
     console.log(`Server is running on port ${port}`);
 });
